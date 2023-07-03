@@ -1,0 +1,220 @@
+/*  Start Global Rules */
+
+* {
+    margin: 0;
+    padding: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.glass{
+    background: rgba( 14, 84, 166, 0.95 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transform:translateY(-8px);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Cairo", sans-serif;
+    background: rgba(77, 68, 241, 0.9);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 2000px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  .true {
+    position: relative;
+    width: 20%;
+    color: yellowgreen;
+    left: 40%;
+    font-size: 50px;
+
+  }
+/* end global-rules */
+
+/* edit */
+.container{
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.h1{
+    width: 70%;
+    top:10px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom:50px;
+    margin-left: 12%;
+}
+
+.h1,
+h2,
+p {
+    text-shadow: 2px 10px 3px rgb(59, 98, 142), 0 0 1em rgb(4, 4, 124), 0 0 0.2em blue;
+
+}
+
+
+.sec-1{
+    background: rgba(26, 116, 219, 0.95);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transform:translateY(-8px);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    width: 70%;
+    margin-left: 12.5%;
+    /* transform: translateX(20%); */
+    transition: 0.3s;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
+
+}
+
+.sec-1:hover {
+    background: rgba( 14, 84, 166, 0.95 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transform:translateY(-8px);
+
+}
+
+
+
+.sec-1>h2{
+    position: relative;
+    left: 50px;
+}
+.links>span {
+    margin-left: 30px;
+}
+
+.sec-1 i:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sec-1 .red:hover {
+    color:rgb(184, 12, 12);
+    transform:translateY(-6px);
+}
+.sec-1 .yellow:hover{
+    color: yellow;
+}
+.sec-1 .green:hover{
+    color: rgb(170, 255, 0);
+}
+
+.loop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+}
+
+.input {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid  rgba(26, 116, 219, 0.95);
+    border-radius: 10px;
+    transition:0.3s ;
+    left: -30px;
+    
+}
+
+.input:hover{
+    color: white;
+    border: none;
+    transform:translateY(-10px);
+    background-color:  rgba(26, 116, 219, 0.95);
+}
+
+.plus {
+    position: relative;
+    background-color: rgba(5, 54, 111, 0.712);
+    padding: 10px;
+    color: rgb(255, 254, 254);
+    border-radius: 40%;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.plus:hover {
+    background: rgba(15, 63, 119, 0.95);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 40%;
+
+}
+
+@media (max-width:767px) {
+    .sec-1{
+        font-size: 20px;
+    
+    }
+
+   .links>span {
+    margin-left: 10px;
+    }
+
+    .h1 {
+        position: relative;
+        /* width: 100%; */
+        font-size:30px ;
+
+    }
+    h2 {
+        margin-left: -30%;
+    }
+
+    .input {
+        font-size: 20px;
+        margin-left: 25%;
+
+    }
+}
+/* edit */
